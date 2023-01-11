@@ -1,0 +1,35 @@
+\documentclass[border=10pt]{standalone} 
+%%%<
+\usepackage{verbatim}
+%%%>
+\begin{comment}
+:Title: A simple Tree
+:Tags: Trees;Cookbook
+:Author: Stefan Kottwitz
+:Slug: tree
+
+A simple tree with a style for all nodes.
+\end{comment}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{forest}
+\usetikzlibrary{shadows,trees}
+\begin{document}
+%\tikzset{level 1/.style={level distance=36pt}}
+\tikzset{font=\small,
+level distance=1.75cm,
+every node/.style=
+    {rounded corners,
+    minimum height=8mm,
+    draw=black,
+    shape=rectangle,
+    align=center,
+    very thick
+    },
+auts/.style={double distance=0.3mm}}
+
+\centering
+\begin{forest}

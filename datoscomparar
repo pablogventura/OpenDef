@@ -1,0 +1,21 @@
+(py3def) pablo@claude:~/Escritorio/OpenDef$ time python main.py < ../OpenDefTests/oldtests/simple_positives/data/p0_0.5_3_23_q1.model
+R0 density: 0.499959
+T0 density: 0.499959
+Spectrum = [3, 2, 1]
+DEFINABLE71 of 1771     Diversity:1887                              
+
+Final state: 
+  Diversity = 1888
+    1-diversity = 2
+    2-diversity = 115
+    3-diversity = 1771
+  #Auts = 11
+  #Isos = 159
+  164907 calls to Minion
+  Minion total time = 0.004 secs
+
+
+real	5m43,451s
+user	1m32,220s
+sys	1m36,268s
+(py3def) pablo@claude:~/Escritorio/OpenDef$ 
