@@ -26,3 +26,5 @@ E 3 2
 2 1 0
 
 ```
+## Interactive running on Google Colab
+https://colab.research.google.com/github/pablogventura/OpenDef/blob/master/OpenDef_Running_Example.ipynb
